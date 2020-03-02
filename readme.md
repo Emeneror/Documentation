@@ -15,8 +15,27 @@ sudo pip install sphinx_rtd_theme
 # Run the build
 
 - Go to `<your_path>/documentation/Sphinx`
+
+```shell script
+compile.sh
+
+Usage : ./compile.sh <action> <args>
+
+Parameters
+   Action                 Arguments                       Descr.
+   ----------------------+-------------------------------+--------------------------------------------------------------
+   --html         | -w    None                            Build html doc.
+   --pdf          | -p    None                            Build latex based PDF doc.
+   --both         | -b    None                            Build html and PDF doc.
+   --help         | -h    None                            Show this help and exit.
+
+
+Examples :
+            ./compile.sh --html
+```
+
 - Do `./compile.sh --html` to build Web documentation.
-- Do `./compile.sh --latexpdf` to build PDF documentation.
+- Do `./compile.sh --pdf` to build PDF documentation.
 
 
 # Documentation syntax 
