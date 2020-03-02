@@ -12,8 +12,8 @@
 #author = 'sphinx-themes.org'
 
 project   = 'Documentation'
-copyright = 'Doge'
-author    = 'DanTheDoge'
+copyright = 'Emeneror'
+author    = 'Emeneror'
 
 # The short X.Y version
 version = ''
