@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # Script : compile.sh
+# Author : Emeneror
 # Use    : This script builds the sphinx documentation.
 #
 # ######################################################################################################################
@@ -16,9 +17,9 @@ export DATE_TIME=$(date "+%s")
 # TEARDOWN
 #
 teardown(){
-	ret=$?
+  ret=$?
 
-	local msg=(
+  local msg=(
 	"[INFO] - script success :"
 	"[INFO] - script aborted : "
 	"[ERROR] - script failed : "
