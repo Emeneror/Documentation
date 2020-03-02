@@ -1,0 +1,6 @@
+# .gitignore file
+
+# No need build generation changes to be commited
+build/html
+build/latex
+build/doctrees

@@ -1,0 +1,20 @@
+/**  css/doge.css **/
+/**
+This CSS overloads the main theme to
+ajust it with personnal preferences.
+**/
+
+/* Base theme css */
+@import 'theme.css';
+
+/* Blank main div wrapper */
+.wy-nav-content { padding: 1.618em 3.236em; height: 100%; max-width: 100%; margin: auto; }
+
+/* removes unnecesssary space*/
+p { line-height: 24px; margin: 0; font-size: 16px; /* margin-bottom: 24px; */ }
+
+.contents > .topic-title { font-size: 32px}
+/* Content - provides padding to get a list */
+.contents > ul { margin: 0; padding: 0 !important; list-style: none; }
+/* Content - Add list style on Summary - Give padding to each list element under class=contents*/
+.contents > ul li { padding-left: 15px; list-style: none; }
