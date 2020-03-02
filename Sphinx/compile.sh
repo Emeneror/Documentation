@@ -85,9 +85,9 @@ function build_latex_doc(){
 
 function show_help(){
 cat <<-EOF
-opencv_install.sh
+compile.sh
 
-Usage : ./opencv_install.sh <action> <args>
+Usage : ./compile.sh <action> <args>
 
 Parameters
    Action                 Arguments                       Descr.
@@ -108,10 +108,10 @@ EOF
 # MAIN
 #
 case $1 in
-	--html  | -w ) VALUE="html";;
+  --html  | -w ) VALUE="html";;
   --pdf   | -p ) VALUE="pdf";;
   --both  | -b ) VALUE="both";;
-	--help  | -h ) VALUE="help";;
+  --help  | -h ) VALUE="help";;
     *) if ! [[ -z $1 ]]; then echo -e "Incorrect command: $1"; show_help; exit; else shift 1; fi;;
 esac
 
